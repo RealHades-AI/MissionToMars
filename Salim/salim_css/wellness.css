@@ -1,0 +1,53 @@
+body {
+    background-color: #112740;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.fitness-text {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.mission-text {
+    position: absolute;
+    top: 26%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.back-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 16%; 
+    
+}
+
+.box {
+    flex: 1;
+    margin: 0 10px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+    border: 1px solid #ccc;
+    height: 200px; 
+    max-width: 400px; 
+}
