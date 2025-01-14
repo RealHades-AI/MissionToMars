@@ -1,0 +1,51 @@
+body {
+    background-image: url('/Salim/salim_html/images/space.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.centered-div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px; /* Increased padding */
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    width: 80%; /* Increased width */
+    height: 400px; /* Increased height */
+}
+
+.centered-img {
+    width: 100%; /* Ensure the image fits the width of the div */
+    height: 100%; /* Ensure the image fits the height of the div */
+    object-fit: cover; /* Maintain aspect ratio and cover the entire div */
+    border-radius: 10px;
+}
+
+.library-text {
+    position: absolute;
+    top: 9%; /* Moved up */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3em; /* Increased font size */
+    font-weight: bold; /* Make the text bold */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Added text shadow for better visibility */
+}
+
+.back-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 700;
+}
