@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -9,7 +9,7 @@ body {
     align-items: center;
 }
 
-/* Header */
+
 header {
     display: flex;
     justify-content: center;
@@ -45,7 +45,7 @@ h1 {
     font-size: 2rem;
 }
 
-/* Main Section */
+
 main {
     width: 90%;
     max-width: 1200px;
@@ -92,7 +92,7 @@ main {
     font-size: 1rem;
 }
 
-/* Footer */
+
 footer {
     margin-top: auto;
     width: 100%;

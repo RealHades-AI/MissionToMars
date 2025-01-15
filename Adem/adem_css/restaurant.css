@@ -1,4 +1,4 @@
-/* General styling for the page */
+
 body {
     background: url('/Adem/adem_media/guh.gif') no-repeat center center fixed;
     background-size: cover;
@@ -7,7 +7,7 @@ body {
     padding: 0;
 }
 
-/* Styling for the menu columns */
+
 .menu-column {
     border: 1px solid #ccc;
     padding: 20px;
@@ -17,7 +17,7 @@ body {
     transition: transform 0.3s ease;
 }
 
-/* Styling for food items */
+
 .menu-column ul li {
     list-style: none;
     padding: 10px 0;
@@ -25,7 +25,7 @@ body {
     cursor: pointer;
 }
 
-/* Popup styling */
+
 .popup-overlay {
     position: fixed;
     top: 0;
@@ -77,15 +77,15 @@ body {
 .popup-container button.close-popup:hover {
     background-color: #cc0000;
 }
-/* Style for the header title */
+
 header h1 {
-    color: #000000; /* Fitting gold-like color */
+    color: #000000; 
     text-align: center;
     margin-top: 20px;
     font-size: 2.5em;
 }
 
-/* Style for the copyright text */
+
 footer {
     position: fixed;
     bottom: 10px;
@@ -104,12 +104,12 @@ footer p {
     text-align: center;
 }
 
-/* Style for the home button */
+
 .home-button {
     position: fixed;
     top: 10px;
     left: 10px;
-    background-color: #007BFF; /* Vibrant blue color */
+    background-color: #007BFF; 
     color: white;
     padding: 10px 20px;
     border: none;
