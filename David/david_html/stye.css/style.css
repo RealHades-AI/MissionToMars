@@ -1,0 +1,98 @@
+/* Algemene styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #1b2735, #090a0f);
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Header */
+header {
+    width: 100%;
+    padding: 10px;
+    background: #111;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #66ccff;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+.home-btn {
+    background: #66ccff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Movies Section */
+.movies-section {
+    width: 80%;
+    margin: 20px 0;
+    background: #222;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.scroll-bar {
+    height: 150px;
+    overflow-y: scroll;
+    background: #333;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.scroll-bar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.scroll-bar li {
+    margin: 5px 0;
+    color: #66ccff;
+    cursor: pointer;
+}
+
+/* Video Player */
+.video-player {
+    width: 80%;
+    margin: 20px 0;
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.video-player h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #ffcc00;
+}
+
+#movie-video {
+    width: 100%;
+    margin-top: 10px;
+    border: 2px solid #66ccff;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    padding: 10px;
+    background: #111;
+    text-align: center;
+    color: #66ccff;
+}

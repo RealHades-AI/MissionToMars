@@ -3,13 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>muziek</title>
-
+    <title>Cosmic Music Universe</title>
+    <link rel="stylesheet" href="stye.css/style.css">
 </head>
-
 <body>
-    
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <div class="home-button">Home</div>
+            <h1>Cosmic Music Universe</h1>
+        </header>
 
-    
+        <!-- Main Content -->
+        <main>
+            <!-- Search and Playlist Section -->
+            <div class="search-section">
+                <div class="search-bar">
+                    <input type="text" id="song-input" placeholder="Search or add a song">
+                    <button id="add-song">Add Song</button>
+                </div>
+                <div class="song-list-container">
+                    <h2>Your Playlist</h2>
+                    <ul id="song-list">
+                        <li>Galaxy Beats</li>
+                        <li>Stellar Symphony</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Top Cosmic Tracks -->
+            <section class="top-tracks">
+                <h2>Top Cosmic Tracks</h2>
+                <div class="track-list">
+                    <div class="track">
+                        <h3>Starlight Dreams</h3>
+                        <p>By Celestial Harmonies</p>
+                        <button class="play-button">Play</button>
+                    </div>
+                    <div class="track">
+                        <h3>Milky Way Rhapsody</h3>
+                        <p>By Galaxy Orchestra</p>
+                        <button class="play-button">Play</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Fun Facts About Space -->
+            <section class="space-facts">
+                <h2>Did You Know?</h2>
+                <p id="random-fact">Click below to learn a new space fact!</p>
+                <button id="generate-fact">Show Me a Fact</button>
+            </section>
+
+            <!-- Astronomy Gallery -->
+            <section class="gallery">
+                <h2>Astronomy Gallery</h2>
+                <div class="image-container">
+                    <img src="https://source.unsplash.com/300x200/?galaxy" alt="Galaxy">
+                    <img src="https://source.unsplash.com/300x200/?nebula" alt="Nebula">
+                    <img src="https://source.unsplash.com/300x200/?planet" alt="Planet">
+                </div>
+            </section>
+
+            <!-- Space Poll -->
+            <section class="space-poll">
+                <h2>What's Your Favorite Space Phenomenon?</h2>
+                <form id="poll-form">
+                    <label><input type="radio" name="phenomenon" value="Black Holes"> Black Holes</label><br>
+                    <label><input type="radio" name="phenomenon" value="Supernovae"> Supernovae</label><br>
+                    <label><input type="radio" name="phenomenon" value="Auroras"> Auroras</label><br>
+                    <button type="submit">Submit</button>
+                </form>
+                <p id="poll-result"></p>
+            </section>
+
+            <!-- Countdown to Next Astronomical Event -->
+            <section class="countdown">
+                <h2>Countdown to the Next Full Moon</h2>
+                <p id="countdown-timer"></p>
+            </section>
+
+            <!-- News Feed -->
+            <section class="news-feed">
+                <h2>Latest Space News</h2>
+                <ul id="news-list">
+                    <li><a href="#">NASA Discovers New Exoplanet!</a></li>
+                    <li><a href="#">Hubble Captures Stunning Nebula Image</a></li>
+                    <li><a href="#">Meteor Shower Peaks Tonight</a></li>
+                </ul>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <div class="playbar">Now Playing: [Track Name]</div>
+            <div class="copyright">&copy; 2025 Cosmic Music Universe</div>
+        </footer>
+    </div>
+    <script src="java.js/david.js"></script>
 </body>
 </html>

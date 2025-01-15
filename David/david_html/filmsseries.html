@@ -3,13 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Films en series</title>
-
+    <title>Space Movie Hub</title>
+    <link rel="stylesheet" href="stye.css/style.css">
 </head>
-
 <body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <button class="home-btn">Home</button>
+            <h1>Space Movie Hub</h1>
+        </header>
 
+        <!-- Movies Section -->
+        <section class="movies-section">
+            <h2>Popular Space Movies</h2>
+            <div class="scroll-bar">
+                <ul>
+                    <li>Interstellar</li>
+                    <li>Gravity</li>
+                    <li>The Martian</li>
+                    <li>2001: A Space Odyssey</li>
+                    <li>Star Wars: A New Hope</li>
+                </ul>
+            </div>
+        </section>
 
-    
+        <!-- Main Video Player -->
+        <main>
+            <div class="video-player">
+                <h3>Now Playing</h3>
+                <video id="movie-video" width="600" controls>
+                    <source src="space-trailer.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <p>Select a movie to play from the list above.</p>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 Space Movie Hub. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="java.js/david.js"></script>
 </body>
 </html>
