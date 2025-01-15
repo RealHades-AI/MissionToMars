@@ -19,7 +19,7 @@ body {
     text-align: center;
     font-size: 1.5em;
     width: 80%; /* Increased width */
-    height: 400px; /* Increased height */
+    height: 600px; /* Increased height */
 }
 
 .centered-img {
@@ -48,4 +48,27 @@ body {
     text-decoration: none;
     font-size: 1.5em;
     font-weight: 700;
+}
+
+.book-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 10px; /* Reduced gap to make them closer */
+    padding: 20px;
+    margin: 20px auto;
+    width: 60%; /* Reduced width to center the grid */
+    position: relative;
+    top: 700px; /* Adjusted to place slightly below centered-div */
+    transform: translateY(-50%);
+}
+
+.book {
+    background-color: #f0f0f0;
+    padding: 30px; /* Increased padding */
+    text-align: center;
+    font-size: 1.2em;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    height: 250px; /* Increased height */
+    width: 100%; /* Ensure full width within grid column */
 }
