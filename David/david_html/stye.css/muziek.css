@@ -1,0 +1,165 @@
+/* Algemene styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #1b2735, #090a0f);
+    color: white;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+}
+
+/* Header */
+header {
+    background: #1b2735;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 2px solid #66ccff;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #ffcc00;
+}
+
+/* Navigatie */
+nav {
+    padding: 10px;
+    text-align: left;
+    background: #1b2735;
+}
+
+nav button {
+    padding: 10px;
+    border: none;
+    background: #66ccff;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+nav button:hover {
+    background: #5599cc;
+}
+
+/* Hoofdsectie */
+main {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: auto 1fr auto;
+    gap: 10px;
+    padding: 15px;
+}
+
+/* Scroll bar (zijbalk) */
+.scroll-bar {
+    grid-row: span 2;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.scroll-bar h3 {
+    margin-top: 0;
+    color: #66ccff;
+}
+
+.scroll-bar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.scroll-bar ul li {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.scroll-bar ul li:hover {
+    color: #ffcc00;
+}
+
+/* Zoekbalk */
+.search-bar {
+    grid-column: span 2;
+    text-align: center;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    position: relative;
+    top: -4px; /* Verplaatst de zoekbalk naar boven */
+}
+
+.search-bar input {
+    width: 60%;
+    padding: 10px;
+    border: 2px solid #66ccff;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background: #66ccff;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.search-bar button:hover {
+    background: #5599cc;
+}
+
+/* Liedjeslijst */
+.song-list {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.song-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.song-list ul li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.song-list ul li:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* Playbar */
+.play-bar {
+    grid-column: span 2;
+    background: #1b2735;
+    padding: 10px;
+    text-align: center;
+    border-top: 2px solid #66ccff;
+}
+
+.play-bar p {
+    margin: 0;
+    font-size: 1rem;
+    color: #ffcc00;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #1b2735;
+    color: #aaaaaa;
+    font-size: 0.8rem;
+}
