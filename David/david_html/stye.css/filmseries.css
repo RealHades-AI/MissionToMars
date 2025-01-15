@@ -4,6 +4,8 @@ body {
     font-family: Arial, sans-serif;
     background: linear-gradient(to bottom, #1b2735, #090a0f);
     color: #fff;
+    background: url('/David/david_html/images/space.jpg') no-repeat center center fixed;
+    background-size: cover;
 }
 
 .container {
@@ -63,11 +65,10 @@ header h1 {
 .scroll-bar li {
     margin: 5px 0;
     color: #66ccff;
-    cursor: pointer;
 }
 
-/* Video Player */
-.video-player {
+/* Main Player */
+main {
     width: 80%;
     margin: 20px 0;
     background: #222;
@@ -75,17 +76,20 @@ header h1 {
     border-radius: 10px;
 }
 
-.video-player h3 {
+.player h3 {
     margin: 0;
     font-size: 1.5rem;
     color: #ffcc00;
 }
 
-#movie-video {
-    width: 100%;
-    margin-top: 10px;
-    border: 2px solid #66ccff;
-    border-radius: 10px;
+.play-btn {
+    background: #66ccff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
 }
 
 /* Footer */
