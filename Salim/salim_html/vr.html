@@ -4,13 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VR Holodeck</title>
-
+    <link rel="stylesheet" href="/Salim/salim_css/vr.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    
+    <div class="vr-text">VR Holodeck</div>
+    <a href="/Index/index.html" class="back-button">&#8592; Back</a>
 
+    <div class="info-container">
+        <div class="info-box">
+            <h2>About the VR Holodeck</h2>
+            <p>The VR Holodeck is a virtual reality environment designed to simulate any desired experience. It uses advanced technology to create immersive and interactive simulations.</p>
+        </div>
+        <div class="info-box">
+            <h2>Features</h2>
+            <ul>
+                <li>Immersive 3D environments</li>
+                <li>Interactive simulations</li>
+                <li>Customizable settings</li>
+                <li>Real-time rendering</li>
+            </ul>
+        </div>
+    </div>
 
-
+    <!-- Include Three.js library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <!-- Include OrbitControls -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/examples/js/controls/OrbitControls.js"></script>
+    <!-- Include your custom script -->
+    <script src="/Salim/salim_javascript/vr.js"></script>
 </body>
 </html>

@@ -1,5 +1,7 @@
 body {
-    background-color: #112740;
+    background-image: url('/Salim/salim_html/images/space.jpg');
+    background-size: cover;
+    background-position: center;
     font-family: 'Montserrat', sans-serif;
 }
 
