@@ -5,7 +5,7 @@ body {
 
 .fitness-text {
     position: absolute;
-    top: 20%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -15,7 +15,7 @@ body {
 
 .mission-text {
     position: absolute;
-    top: 26%;
+    top: 16%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -35,19 +35,66 @@ body {
 
 .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center; /* Center the boxes */
     padding: 20px;
-    margin-top: 16%; 
-    
+    margin-top: 10%; /* Adjust the margin-top to bring the divs up */
+    flex-wrap: wrap; /* Allow wrapping to the next line */
+}
+
+.vertical-container {
+    flex-direction: column; /* Stack the boxes vertically */
+    align-items: center; /* Center the boxes horizontally */
 }
 
 .box {
     flex: 1;
-    margin: 0 10px;
+    margin: 10px; /* Adjust the margin */
     padding: 20px;
     background-color: #f0f0f0;
     text-align: center;
     border: 1px solid #ccc;
-    height: 200px; 
-    max-width: 400px; 
+    height: 300px; /* Height for the smaller boxes */
+    max-width: 1100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bigger-box {
+    height: auto; /* Adjust height to fit content */
+    width: 100%; /* Make the bigger box take full width */
+}
+
+.vertical-box {
+    flex-direction: column; /* Arrange items vertically */
+}
+
+.vertical-box .text-content {
+    padding: 20px; /* Add padding to the text */
+}
+
+.vertical-box .images {
+    display: flex;
+    justify-content: space-around; /* Space images evenly */
+    flex-wrap: wrap; /* Allow images to wrap */
+    padding: 20px;
+}
+
+.vertical-box .images img {
+    max-width: 45%; /* Adjust image width */
+    height: auto;
+    margin: 10px 0; /* Add margin between images */
+}
+
+.box img {
+    max-width: 100%;
+    max-height: 70%; /* Ensure the image does not exceed 70% of the box height */
+    height: auto;
+    flex-grow: 1;
+}
+
+.box p {
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: 700;
 }
