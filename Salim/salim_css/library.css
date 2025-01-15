@@ -13,7 +13,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgb(255, 255, 255);
     padding: 30px; /* Increased padding */
     border-radius: 10px;
     text-align: center;
@@ -58,7 +58,7 @@ body {
     margin: 20px auto;
     width: 60%; /* Reduced width to center the grid */
     position: relative;
-    top: 700px; /* Adjusted to place slightly below centered-div */
+    top: 1350px; /* Adjusted to place slightly below centered-div */
     transform: translateY(-50%);
 }
 
@@ -69,6 +69,25 @@ body {
     font-size: 1.2em;
     border: 1px solid #ccc;
     border-radius: 10px;
-    height: 250px; /* Increased height */
-    width: 100%; /* Ensure full width within grid column */
+    height: 376px; /* Increased height */
+    width: 75%; /* Ensure full width within grid column */
+}
+
+.book img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px; /* Match the border-radius of the .book div */
+}
+
+.best-sellers-text {
+    position: absolute;
+    top: calc(51.5% + 300px); /* Adjust this value based on the height of the centered div */
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 20px 0; /* Add some margin to separate it from the book grid */
+    color: white;
 }
